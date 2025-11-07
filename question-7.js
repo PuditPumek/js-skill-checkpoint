@@ -11,6 +11,6 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
-let newProductList = firstProductList.concat(secondProductList);
+let newProductList = [...firstProductList, ...secondProductList];
 
 console.log(newProductList);
