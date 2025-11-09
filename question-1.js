@@ -10,6 +10,8 @@ inventory.apple.quantity = 200
 inventory.orange = { price: 20, quantity: 300 }
 let totslValue = 0
 
+console.log(inventory);
+
 for (let item in inventory) {
   totslValue += inventory[item].price * inventory[item].quantity
 }
